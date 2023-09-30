@@ -16,34 +16,43 @@
     line-height: 1.2;
     letter-spacing: -0.03em;
     max-width: 335px;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
-    align-content: start;
+    flex-direction: row;
   }
   .hero-title-part {
     color: #ecd979;
   }
   .hero-button {
-    color: var(--white, #FCF9F9);
-font-family: Manrope;
-font-size: 14px;
-font-weight: 600;
-letter-spacing: -0.04em;
-text-transform: uppercase;
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
     background-color: #1c2225;
     margin-top: 20px;
     margin-bottom: 40px;
     display: inline-flex;
-height: 49px;
-padding: 14px 36px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 15px;
-border: 1px solid rgba(252, 249, 249, 0.10);
+    height: 49px;
+    padding: 14px 36px;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .hero-button:hover,
+  .hero-button:focus {
+    border: 1px solid var(--yellow, #ecd979);
   }
 }
-@media screen and (min-width: 768px) {}
-@media screen and (min-width: 1280px) {}
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1440px) {
+}
