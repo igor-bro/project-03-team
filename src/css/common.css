@@ -1,0 +1,10 @@
+body {
+  color: var(--white);
+  background-color: var(--black);
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
