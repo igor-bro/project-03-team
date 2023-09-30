@@ -1,11 +1,9 @@
 /*--------- section hero-------*/
 @media screen and (max-width: 767px) {
   .hero-section {
-    background: #1c2225;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 60px;
     padding-bottom: 80px;
   }
   .hero-title {
