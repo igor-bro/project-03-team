@@ -22,22 +22,43 @@
   </head>
   <body>
     <header>
-      <load ="partials/header.html" />
+      <load src="partials/header.html" />
     </header>
-
     <main>
-      <load ="partials/hero.html" />
-      <load ="partials/about.html" />
-      <load ="partials/collection.html" />
-      <load ="partials/order.html" />
-      <load ="partials/testimonials.html" />
+      <load src="partials/hero.html" />
+      <load src="partials/about.html" />
+      <load src="partials/collection.html" />
+      <load src="partials/order.html" />
+      <load src="partials/testimonials.html" />
     </main>
     <footer>
-      <load ="partials/footer.html" />
+      <load src="partials/footer.html" />
     </footer>
-
-    <div class="mobile-menu"></div>
-
+    <div class="mobile-menu">
+      <div class="mobile-menu-buttons">
+        <a class="mobile-menu-tel" href="tel:+380684439426">
+          +380 (68) 443-94-26</a
+        >
+        <button class="mobile-menu-close-btn">
+          <svg
+            class="mobile-menu-lose-icon"
+            width="36"
+            height="36"
+            aria-label="close-icon"
+          >
+            <use href="#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-menu-navi">
+        <ul class="mobile-menu-navi-list">
+          <li class="mobile-menu-navi-item">About us</li>
+          <li class="mobile-menu-navi-item">Our collection</li>
+          <li class="mobile-menu-navi-item">Customer order</li>
+          <li class="mobile-menu-navi-item">Testimonials</li>
+        </ul>
+      </nav>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
