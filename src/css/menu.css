@@ -6,6 +6,7 @@
     background-image: url(../img/menu/bg-mobile-menu-m.png);
     background-position: bottom;
     background-repeat: no-repeat;
+    background-size: contain;
 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     max-width: 340px;
@@ -89,15 +90,14 @@
   }
 }
 
-@media screen (min-width: 376px) {
+@media screen and (min-width: 376px) {
   .mobile-menu {
+    padding: 20px 32px;
+    align-items: flex-end;
+
     border: none;
     box-shadow: none;
     background-image: url(../img/menu/bg-mobile-menu-t.png);
-  }
-
-  .mobile-menu-wrap {
-    padding-right: 32px;
   }
 
   .mobile-menu-buttons {
@@ -106,13 +106,19 @@
     gap: 79px;
   }
 
+  .mobile-menu-tel {
+    font-size: 14px;
+    padding: 14px 28px;
+    line-height: 1.4;
+  }
+
   .mobile-menu-navi-list {
     justify-content: flex-end;
     gap: 20px;
   }
 }
 
-@media screen (min-width: 769px) {
+@media screen and (min-width: 769px) {
   .mobile-menu {
     display: none;
   }
