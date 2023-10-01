@@ -10,9 +10,10 @@ body {
 }
 
 .back-to-top {
-  background: var(--yellow);
+  background: var(--white);
   border-radius: 50%;
   position: fixed;
+  z-index: 999;
   bottom: -50px;
   padding: 10px 12px;
   right: 50px;
@@ -20,7 +21,7 @@ body {
   transition: 0.3s all;
 }
 
-.back-to-top:active {
+.back-to-top.active {
   bottom: 50px;
   transition: 0.3s all;
 }
