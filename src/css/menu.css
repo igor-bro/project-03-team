@@ -63,6 +63,8 @@
   }
 
   .mobile-menu-close-btn {
+    padding: 0;
+    line-height: 0;
     background-color: transparent;
     border: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -88,12 +90,18 @@
     color: var(--black);
     text-transform: uppercase;
   }
+
+  .mobile-menu-navi-item:focus,
+  .mobile-menu-navi-item:active {
+    color: var(--white);
+  }
 }
 
 @media screen and (min-width: 376px) {
   .mobile-menu {
     padding: 20px 32px;
     align-items: flex-end;
+    max-width: 380px;
 
     border: none;
     box-shadow: none;
