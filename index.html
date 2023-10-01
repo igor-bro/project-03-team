@@ -313,17 +313,64 @@
   </div>
 </section>
 
-      <button class="hero-button" type="button">
-  ORDER
-  <svg
-    class="hero-button-svg"
-    width="26"
-    height="10"
-    aria-label="hero-button-icon-arrow"
-  >
-    <use href="../img/sprite.svg#icon-arrow"></use>
-  </svg>
-</button>
+      <section class="order-section" id="customer-order">
+  <div class="order-bcgr-img"></div>
+  <div class="order-container container">
+    <h2 class="order-title">
+      Your order
+      <span class="order-part-title"
+        >is our priority: Personalized approach and quality of service</span
+      >
+    </h2>
+    <div class="order-form-container">
+      <form class="order-form">
+        <div class="order-form-wrapper">
+          <input
+            class="order-form-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            placeholder="Enter your full name"
+            required
+          />
+          <input
+            class="order-form-input"
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="Enter your email"
+            required
+          />
+          <textarea
+            class="order-form-textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comments"
+          ></textarea>
+        </div>
+        <button class="order-btn" type="submit">
+          Send
+          <svg
+            class="order-btn-icon"
+            width="26"
+            height="10"
+            aria-label="order-button-icon"
+          >
+            <use href="/project-03-team/assets/sprite-2efb9bf0.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+      <img
+        class="order-img"
+        srcset="/project-03-team/assets/order-tablet-img-min-8ad00458.jpg 638w, /project-03-team/assets/order-tablet-img@2x-min-c9045b65.jpg 1276w, /project-03-team/assets/order-desktop-img-min-c34245c8.jpg 524w, /project-03-team/assets/order-desktop-img@2x-min-8970a212.jpg 1048w"
+        sizes="(min-width: 1440px) 524px, (min-width: 1280px) 524px, (min-width: 768px) 638px, (max-width: 375px) 638px"
+        src="/project-03-team/assets/order-tablet-img-min-8ad00458.jpg"
+        alt="vyshiyvanka picture"
+      />
+    </div>
+  </div>
+</section>
 
       
     </main>
