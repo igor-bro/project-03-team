@@ -12,10 +12,6 @@ menuCloseButton.addEventListener("click", () => {
   menuContainer.classList.remove("is-open");
 });
 
-menuItem.addEventListener("click", () => {
-  menuContainer.classList.remove("is-open");
-});
-  
 
 $('.back-to-top').click(function () {
     $('body,html').animate({ scrollTop: 0}, 800); 
