@@ -124,12 +124,19 @@
   .hero-vyshyvanka-part {
     width: 157px;
     height: 191px;
-
     margin-top: 679px;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .hero-container {
+    display: flex;
+    
+  }
+  .hero-title-btn-foto {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 @media screen and (min-width: 1440px) {
 }
