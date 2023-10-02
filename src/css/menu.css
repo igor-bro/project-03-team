@@ -21,7 +21,7 @@
     top: 0;
     z-index: 999;
 
-    transform: translateX(100%);
+    transform: translateX(110%);
     transition: transform 250ms ease-out;
   }
 
@@ -55,7 +55,7 @@
 
   .mobile-menu-tel:focus,
   .mobile-menu-tel:active {
-    border-color: var(--black);
+    border-color: var(--white);
   }
 
   .mobile-menu-close-btn {
@@ -68,8 +68,8 @@
 
   .mobile-menu-close-btn:focus,
   .mobile-menu-close-btn:active {
-    border: 1px solid var(--black);
-    border-radius: 5px;
+    border: 1px solid var(--white);
+    border-radius: 10px;
   }
 
   .mobile-menu-close-icon {
