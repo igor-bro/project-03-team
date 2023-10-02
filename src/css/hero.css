@@ -51,7 +51,7 @@
     border: 1px solid var(--yellow, #ecd979);
   }
   .hero-button-svg {
-    color: #ecd979;
+    fill: #ecd979;
   }
 }
 @media screen and (min-width: 768px) {
@@ -99,6 +99,9 @@
   .hero-button:focus {
     border: 1px solid var(--yellow, #ecd979);
   }
+  .hero-button-svg {
+    fill: #ecd979;
+  }
   .hero-elements {
     display: block;
   }
@@ -124,7 +127,7 @@
   .hero-vyshyvanka-part {
     width: 157px;
     height: 191px;
-    margin-top: 679px;
+    margin-top: 692px;
   }
 }
 
