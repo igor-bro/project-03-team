@@ -1,8 +1,10 @@
 .header-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 24.5px;
   padding-bottom: 6.5px;
+  margin-bottom: 60px;
 }
 
 .header-menu {
@@ -34,10 +36,17 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   background: rgba(252, 249, 249, 0.1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  line-height: 0;
+  letter-spacing: 0;
 }
 
 .header-social-button-img {
   fill: var(--white);
+}
+
+.header-btn-menu {
+  line-height: 0;
+  letter-spacing: 0;
 }
 
 .header-btn-menu-icon {
@@ -50,9 +59,17 @@
     border: 1px solid var(--yellow);
     background: transparent;
   }
+
+  .header-wrapper {
+    margin-bottom: 80px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .header-wrapper {
+    margin-bottom: 100px;
+  }
+
   .header-btn-menu {
     display: none;
   }
