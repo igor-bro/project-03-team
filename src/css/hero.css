@@ -140,6 +140,36 @@
     display: flex;
     flex-direction: row-reverse;
   }
+  .hero-foto-img {
+    max-width: 392px;
+    height: 545px;
+  }
+  .hero-title {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    width: 517px;
+    display: block;
+    align-content: space-between;
+    margin-left: 40px;
+  }
+  .hero-title-part {
+    color: #ecd979;
+  }
+  ..hero-button {
+    margin-left: 181px;
+  }
+  .hero-vyshyvanka-part {
+    width: 157px;
+    height: 191px;
+    margin-top: 330px;
+  }
+  .hero-title-btn {
+    margin-top: 120px;
+  }
 }
 @media screen and (min-width: 1440px) {
 }
