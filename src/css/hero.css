@@ -1,6 +1,6 @@
 /*--------- section hero-------*/
 @media screen and (max-width: 767px) {
-  .hero-elements {
+  .hero-elements, .hero-vyshyvanka-part {
     display: none;
   }
   .hero-section {
