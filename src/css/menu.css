@@ -1,29 +1,27 @@
 @media screen and (max-width: 1279px) {
   .mobile-menu {
-    border: 1px solid #000;
     background: var(--yellow, #ecd979);
-
     background-image: url(../img/menu/bg-mobile-menu-m.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
 
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    max-width: 340px;
+    max-width: 274px;
     height: 100%;
+    padding: 20px;
 
     display: flex;
     position: fixed;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
     gap: 186px;
 
     right: 0;
     top: 0;
     z-index: 999;
 
-    transform: translateX(150%);
+    transform: translateX(110%);
     transition: transform 250ms ease-out;
   }
 
@@ -33,24 +31,22 @@
 
   .mobile-menu-buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     gap: 40px;
   }
 
   .mobile-menu-tel {
     display: flex;
-    padding: 12px 20px;
+    padding: 12px 12px;
     justify-content: center;
     align-items: center;
 
     color: var(--black);
-    font-family: Manrope;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.16; /* 116.667% */
-    text-transform: uppercase;
+    line-height: 1.1;
+    text-transform: none;
+    letter-spacing: 0;
 
     border-radius: 15px;
     border: 1px solid rgba(28, 34, 37, 0.1);
@@ -59,7 +55,7 @@
 
   .mobile-menu-tel:focus,
   .mobile-menu-tel:active {
-    border-color: var(--black);
+    border-color: var(--white);
   }
 
   .mobile-menu-close-btn {
@@ -72,7 +68,8 @@
 
   .mobile-menu-close-btn:focus,
   .mobile-menu-close-btn:active {
-    border: 1px solid var(--black);
+    border: 1px solid var(--white);
+    border-radius: 10px;
   }
 
   .mobile-menu-close-icon {
@@ -97,14 +94,19 @@
   }
 }
 
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .mobile-menu {
+    background-image: url(../img/menu/bg-mobile-menu-m@2x.png);
+  }
+}
+
 @media screen and (min-width: 376px) {
   .mobile-menu {
     padding: 20px 32px;
-    align-items: flex-end;
     max-width: 380px;
 
-    border: none;
-    box-shadow: none;
     background-image: url(../img/menu/bg-mobile-menu-t.png);
   }
 
@@ -126,7 +128,15 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 376px),
+  screen and (min-resolution: 2dppx) and (min-width: 376px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 376px) {
+  .mobile-menu {
+    background-image: url(../img/menu/bg-mobile-menu-t@2x.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .mobile-menu {
     display: none;
   }

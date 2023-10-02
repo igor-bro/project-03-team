@@ -19,6 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -36,8 +37,8 @@
     </footer>
     <div class="mobile-menu">
       <div class="mobile-menu-buttons">
-        <a class="mobile-menu-tel" href="tel:+380684439426">
-          +380 (68) 443-94-26</a
+        <a class="mobile-menu-tel" href="tel:+380684439426"
+          >+380 (68) 443-94-26</a
         >
         <button class="mobile-menu-close-btn">
           <svg
@@ -46,27 +47,50 @@
             height="36"
             aria-label="close-icon"
           >
-            <use href="./img/sprite.svg#icon-close-btn"></use>
+            <use href="./img/sprite.svg#icon-btn-close"></use>
           </svg>
         </button>
       </div>
       <nav class="mobile-menu-navi">
         <ul class="mobile-menu-navi-list">
           <li class="mobile-menu-navi-item">
-            <a href="#about">About us</a>
+            <a class="mobile-menu-navi-item-link" href="#about">About us</a>
           </li>
           <li class="mobile-menu-navi-item">
-            <a href="#collection">Our collection</a>
+            <a class="mobile-menu-navi-item-link" href="#collection"
+              >Our collection</a
+            >
           </li>
           <li class="mobile-menu-navi-item">
-            <a href="#order">Customer order</a>
+            <a class="mobile-menu-navi-item-link" href="#order"
+              >Customer order</a
+            >
           </li>
           <li class="mobile-menu-navi-item">
-            <a href="#testimonials">Testimonials</a>
+            <a class="mobile-menu-navi-item-link" href="#testimonials"
+              >Testimonials</a
+            >
           </li>
         </ul>
       </nav>
     </div>
+    <div id="back_to_top" class="back-to-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        style="transform: rotate(270deg)"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+      </svg>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
