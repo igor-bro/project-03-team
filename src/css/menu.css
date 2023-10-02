@@ -55,7 +55,7 @@
 
   .mobile-menu-tel:focus,
   .mobile-menu-tel:active {
-    border-color: var(--white);
+    border-color: var(--black);
   }
 
   .mobile-menu-close-btn {
@@ -66,9 +66,11 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .mobile-menu-close-btn:focus {
-    border: 1px solid var(--white);
-    border-radius: 10px;
+  .mobile-menu-close-btn:focus,
+  .mobile-menu-close-btn:active {
+    border: 1px solid var(--black);
+    border-radius: 5px;
+  }
 
   .mobile-menu-close-icon {
     stroke: var(--black);
@@ -134,7 +136,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 769px) {
   .mobile-menu {
     display: none;
   }
