@@ -1,5 +1,8 @@
 /*--------- section hero-------*/
 @media screen and (max-width: 767px) {
+  .hero-elements, .hero-vyshyvanka-part {
+    display: none;
+  }
   .hero-section {
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,10 +50,96 @@
   .hero-button:focus {
     border: 1px solid var(--yellow, #ecd979);
   }
+  .hero-button-svg {
+    fill: #ecd979;
+  }
 }
 @media screen and (min-width: 768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero-title {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    width: 549px;
+    display: block;
+    align-content: space-between;
+  }
+  .hero-title-part {
+    color: #ecd979;
+  }
+  .hero-button {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    background-color: #1c2225;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-flex;
+    height: 50px;
+    padding: 14px 39px;
+    margin-left: 141px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .hero-button:hover,
+  .hero-button:focus {
+    border: 1px solid var(--yellow, #ecd979);
+  }
+  .hero-button-svg {
+    fill: #ecd979;
+  }
+  .hero-elements {
+    display: block;
+  }
+  .hero-sun-text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-left: 40px;
+  }
+  .hero-text-embroidery {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    width: 115px;
+    height: 44px;
+  }
+  .hero-vyshyvanka-part {
+    width: 157px;
+    height: 191px;
+    margin-top: 692px;
+  }
 }
+
 @media screen and (min-width: 1280px) {
+  .hero-container {
+    display: flex;
+    
+  }
+  .hero-title-btn-foto {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 @media screen and (min-width: 1440px) {
 }
