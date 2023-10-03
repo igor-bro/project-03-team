@@ -80,8 +80,8 @@
   letter-spacing: -0.04em;
 }
 .about-img {
-  width: 335px;
-  max-width: unset;
+  width: 100%;
+  max-width: 335px;
 }
 @media screen and (min-width: 768px) {
   .about-section {
@@ -100,6 +100,7 @@
   }
   .about-img {
     width: 704px;
+    max-width: unset;
   }
 }
 @media screen and (min-width: 1280px) {
