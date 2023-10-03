@@ -71,6 +71,7 @@
   width: 335px;
   height: 196px;
   color: var(--white, #fcf9f9);
+  font-family: 'Manrope';
   font-size: 14px;
   letter-spacing: -0.02em;
   padding: 14px 16px;
@@ -119,4 +120,7 @@
 
 .order-img {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
 }
