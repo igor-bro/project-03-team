@@ -76,7 +76,7 @@
   .collection-section {
     background-image: url(/img/collection/element-tablet.png);
     background-repeat: no-repeat;
-    background-position: 0% 6%;
+    background-position: 0% 15%;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -101,7 +101,7 @@
   .collection-section {
     background-image: url(/img/collection/element-desktop.png);
     background-repeat: no-repeat;
-    background-position: 0% 3%;
+    background-position: 0% 25%;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -115,7 +115,7 @@
   .collection-section {
     background-image: url(/img/collection/element-desktop.png);
     background-repeat: no-repeat;
-    background-position: 0% 1%;
+    background-position: 0% 21%;
   }
 
   @media screen and (min-resolution: 192dpi) {
