@@ -56,6 +56,10 @@
     width: 26px;
     height: 10px;
   }
+
+  .hero-sun-svg {
+    fill: var(--yellow);
+  }
 }
 @media screen and (min-width: 768px) {
   .hero-container {
@@ -161,7 +165,7 @@
   .hero-title-part {
     color: #ecd979;
   }
-  ..hero-button {
+  .hero-button {
     margin-left: 181px;
   }
   .hero-vyshyvanka-part {
