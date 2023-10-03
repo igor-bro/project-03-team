@@ -46,7 +46,7 @@
 .collection-section {
   background-image: url(../img/collection/element-mobile.png);
   background-repeat: no-repeat;
-  background-size: 177px 199px;
+  background-size: 72px 177px;
   background-position: 0% 9%;
 }
 
@@ -85,7 +85,7 @@
   .collection-section {
     background-image: url(../img/collection/element-tablet.png);
     background-position: 0% 10%;
-    background-size: 300px 338px;
+    background-size: 114px 300px;
   }
 
   @media screen and (min-resolution: 192dpi),
@@ -112,6 +112,7 @@
   .collection-section {
     background-image: url(../img/collection/element-desktop.png);
     background-position: 0% 21%;
+    background-size: 169px 300px;
   }
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
@@ -126,6 +127,7 @@
   .collection-section {
     background-image: url(../img/collection/element-desktop.png);
     background-position: 0% 21%;
+    background-size: 169px 300px;
   }
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
