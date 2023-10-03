@@ -3,13 +3,13 @@
 }
 
 .order-bcgr-img {
-  width: 375px;
+  max-width: 425px;
   height: 550px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
   background-image: url(.././img/order/bcgr/oreder-bcgr-mobile-min.jpg);
-  background-position: 50% 50%;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -32,7 +32,7 @@
   color: var(--yellow, #ecd979);
   font-size: 32px;
   font-weight: 500;
-  line-height: 1.38;
+  line-height: 1.375;
   letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
@@ -44,12 +44,12 @@
 .order-form-wrapper {
   display: flex;
   flex-direction: column;
+  width: 335px;
   gap: 20px;
   margin-bottom: 40px;
 }
 
 .order-form-input {
-  width: 335px;
   height: 47px;
   padding: 14px 16px;
   color: var(--white, #fcf9f9);
@@ -68,7 +68,6 @@
 }
 
 .order-form-textarea {
-  width: 335px;
   height: 196px;
   color: var(--white, #fcf9f9);
   font-family: 'Manrope';
@@ -121,6 +120,197 @@
 .order-img {
   display: none;
 }
+/* TABLET */
 
 @media screen and (min-width: 768px) {
+  .order-section {
+    padding: 100px 0;
+    background-image: url(.././img/order/bcgr/order-tablet-ornament-min.png);
+    background-position: 0% 95%;
+    background-repeat: no-repeat;
+    background-size: 323px 481px;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .order-section {
+      background-image: url(.././img/order/bcgr/order-tablet-ornament@2x-min.png);
+    }
+  }
+
+  .order-bcgr-img {
+    max-width: 1279px;
+    height: 776px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    background-image: url(.././img/order/bcgr/oreder-bcgr-tablet-min.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .order-bcgr-img {
+      background-image: url(.././img/order/bcgr/oreder-bcgr-tablet@2x-min.jpg);
+    }
+  }
+
+  .order-container {
+    width: 100%;
+    min-height: 1340px;
+  }
+
+  .order-title {
+    max-width: 542px;
+    font-size: 44px;
+    line-height: 1.318;
+    letter-spacing: -0.03em;
+  }
+
+  .order-form-wrapper {
+    width: 508px;
+  }
+
+  .order-form-input {
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .order-form-textarea {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.02em;
+  }
+
+  .order-btn {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 100px;
+    min-width: 168px;
+    height: 50px;
+    padding: 14px 39px;
+    font-size: 16px;
+  }
+
+  .order-img-wrapper {
+    position: relative;
+  }
+
+  .order-img {
+    display: block;
+    position: absolute;
+    left: 98px;
+    border-radius: 4px;
+    background: url(.././img/order/order-tablet-img-min.jpg),
+      lightgray 50% / cover no-repeat;
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .order-img {
+      background: url(.././img/order/order-tablet-img@2x-min.jpg),
+        lightgray 50% / cover no-repeat;
+    }
+  }
+}
+
+/* DESKTOP 1280px */
+
+@media screen and (min-width: 1280px) {
+  .order-section {
+    padding: 150px 0;
+    background-image: url(.././img/order/bcgr/order-desktop-ornament-min.png);
+    background-position: 0% 89%;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .order-section {
+      background-image: url(.././img/order/bcgr/order-desktop-ornament@2x-min.png);
+    }
+  }
+
+  .order-bcgr-img {
+    max-width: 1439px;
+    margin-bottom: 150px;
+    background-image: url(.././img/order/bcgr/oreder-bcgr-desktop-min.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .order-bcgr-img {
+      background-image: url(.././img/order/bcgr/oreder-bcgr-desktop@2x-min.jpg);
+    }
+  }
+
+  .order-container {
+    position: relative;
+    min-height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .order-form-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 34px;
+  }
+
+  .order-btn {
+    margin-bottom: 0;
+  }
+
+  .order-img-wrapper {
+    position: static;
+    width: 524px;
+  }
+
+  .order-img {
+    position: absolute;
+    top: 0;
+    left: 72px;
+    background: url(.././img/order/order-desktop-img-min.jpg),
+      lightgray 50% / cover no-repeat;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .order-img {
+    background: url(.././img/order/order-desktop-img@2x-min.jpg),
+      lightgray 50% / cover no-repeat;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .order-section {
+    background-image: url(.././img/order/bcgr/order-desktop1440-ornament-min.png);
+    background-position: 0% 89%;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .order-section {
+      background-image: url(.././img/order/bcgr/order-desktop1440-ornament@2x-min.png);
+    }
+  }
+
+  .order-title {
+    max-width: 666px;
+  }
+
+  .order-form-container {
+    padding-right: 158px;
+  }
+
+  .order-img {
+    left: 98px;
+  }
 }
