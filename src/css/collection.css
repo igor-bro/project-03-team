@@ -63,9 +63,8 @@
     font-size: 18px;
   }
 
-  .collection-container {
+  .collection-list {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
   }
@@ -73,10 +72,55 @@
   .collection-list-item {
     width: calc((100% - 20px) / 2);
   }
+
+  .collection-section {
+    background-image: url(/img/collection/element-tablet.png);
+    background-repeat: no-repeat;
+    background-position: 0% 6%;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .collection-section {
+      background-image: url(/images/element-tablet@2x.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+
+  .collection-list-item {
+    width: calc((100% - 40px) / 3);
+  }
+
+  .collection-section {
+    background-image: url(/img/collection/element-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 0% 3%;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .collection-section {
+      background-image: url(/images/element-desktop@2x.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .collection-section {
+    background-image: url(/img/collection/element-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 0% 1%;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .collection-section {
+      background-image: url(/images/element-desktop@2x.jpg);
+    }
+  }
 }
