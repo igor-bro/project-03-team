@@ -13,6 +13,12 @@
   border-radius: 4px;
 }
 
+.collection-section-img:hover,
+.collection-section-img:focus {
+  box-shadow: 0px 1px 6px #ecd979, 0px 1px 1px #ecd979, 0px 2px 1px #ecd979;
+  transform: translateY(0%);
+}
+
 .collection-list-item-container {
   padding-top: 18px;
   padding-bottom: 20px;
@@ -40,7 +46,8 @@
 .collection-section {
   background-image: url(../img/collection/element-mobile.png);
   background-repeat: no-repeat;
-  background-position: 0% 10%;
+  background-size: 177px 199px;
+  background-position: 0% 9%;
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
@@ -77,7 +84,8 @@
 
   .collection-section {
     background-image: url(../img/collection/element-tablet.png);
-    background-position: 0% 12%;
+    background-position: 0% 10%;
+    background-size: 300px 338px;
   }
 
   @media screen and (min-resolution: 192dpi),
