@@ -45,7 +45,7 @@
 
 @media screen and (min-resolution: 192dpi) {
   .collection-section {
-    background-image: url(/images/element-mobile@2x.jpg);
+    background-image: url(/img/collection/element-mobile@2x.jpg);
   }
 }
 
@@ -76,12 +76,12 @@
   .collection-section {
     background-image: url(/img/collection/element-tablet.png);
     background-repeat: no-repeat;
-    background-position: 0% 6%;
+    background-position: 0% 12%;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .collection-section {
-      background-image: url(/images/element-tablet@2x.jpg);
+      background-image: url(/img/collection/element-tablet@2x.jpg);
     }
   }
 }
@@ -101,12 +101,12 @@
   .collection-section {
     background-image: url(/img/collection/element-desktop.png);
     background-repeat: no-repeat;
-    background-position: 0% 3%;
+    background-position: 0% 21%;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .collection-section {
-      background-image: url(/images/element-desktop@2x.jpg);
+      background-image: url(/img/collection/element-desktop@2x.jpg);
     }
   }
 }
@@ -115,12 +115,12 @@
   .collection-section {
     background-image: url(/img/collection/element-desktop.png);
     background-repeat: no-repeat;
-    background-position: 0% 1%;
+    background-position: 0% 21%;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .collection-section {
-      background-image: url(/images/element-desktop@2x.jpg);
+      background-image: url(/img/collection/element-desktop@2x.jpg);
     }
   }
 }
