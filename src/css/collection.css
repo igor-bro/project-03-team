@@ -47,7 +47,7 @@
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .collection-section {
-    background-image: url(../img/collection/element-mobile@2x.jpg);
+    background-image: url(../img/collection/element-mobile@2x.png);
   }
 }
 
@@ -84,7 +84,7 @@
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .collection-section {
-      background-image: url(../img/collection/element-tablet@2x.jpg);
+      background-image: url(../img/collection/element-tablet@2x.png);
     }
   }
 }
@@ -109,7 +109,7 @@
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .collection-section {
-      background-image: url(../img/collection/element-desktop@2x.jpg);
+      background-image: url(../img/collection/element-desktop@2x.png);
     }
   }
 }
@@ -123,7 +123,7 @@
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
     .collection-section {
-      background-image: url(../img/collection/element-desktop@2x.jpg);
+      background-image: url(../img/collection/element-desktop@2x.png);
     }
   }
 }
