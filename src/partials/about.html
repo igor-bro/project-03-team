@@ -24,22 +24,41 @@
           </p>
         </div>
       </div>
-      <img
-        class="about-img"
-        srcset="
-          ./img/about/about-us-mob-1x.jpg         335w,
-          ./img/about/about-us-mob-2x.jpg         670w,
-          ./img/about/about-us-tablet-1x.jpg      704w,
-          ./img/about/about-us-tablet-2x.jpg     1408w,
-          ./img/about/about-us-desktop-1x.jpg     594w,
-          ./img/about/about-us-desktop-2x.jpg    1188w,
-          ./img/about/about-us-desktop-xl-1x.jpg  709w,
-          ./img/about/about-us-desktop-xl-2x.jpg 1418w
-        "
-        sizes="(min-width: 1440px) 709px, (min-width: 1280px) 594px, (min-width: 768px) 704px, (min-width: 320px) 335px"
-        src="./img/about/about-us-mob-1x.jpg"
-        alt="white-vyshyvanka "
-      />
+      <picture class="about-picture">
+        <source
+          srcset="
+            ./img/about/about-us-desktop-xl-1x.jpg 2x,
+            ./img/about/about-us-desktop-xl-2x.jpg
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/about/about-us-desktop-2x.jpg 2x,
+            ./img/about/about-us-desktop-1x.jpg
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/about/about-us-tablet-2x.jpg 2x,
+            ./img/about/about-us-tablet-1x.jpg
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/about/about-us-mob-2x.jpg 2x,
+            ./img/about/about-us-mob-1x.jpg
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          class="about-img"
+          src="./img/about/about-us-mob-1x.jpg"
+          alt="white-vyshyvanka "
+        />
+      </picture>
     </div>
   </div>
 </section>

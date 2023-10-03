@@ -53,14 +53,9 @@
   }
   .hero-button-svg {
     fill: #ecd979;
-    width: 26px;
-    height: 10px;
-  }
-
-  .hero-sun-svg {
-    fill: var(--yellow);
   }
 }
+
 @media screen and (min-width: 768px) {
   .hero-container {
     display: flex;
@@ -83,7 +78,7 @@
   .hero-button {
     color: var(--white, #fcf9f9);
     font-family: Manrope;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: -0.04em;
     background-color: #1c2225;
@@ -118,6 +113,9 @@
     align-items: center;
     gap: 16px;
     margin-left: 40px;
+  }
+  .hero-sun-svg {
+    fill: var(--yellow);
   }
   .hero-text-embroidery {
     color: rgba(252, 249, 249, 0.4);
