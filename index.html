@@ -20,8 +20,8 @@
     />
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="module" crossorigin src="/project-03-team/assets/index-fce712a6.js"></script>
-    <link rel="stylesheet" href="/project-03-team/assets/index-91fe198b.css">
+    <script type="module" crossorigin src="/project-03-team/assets/index-c71f78a7.js"></script>
+    <link rel="stylesheet" href="/project-03-team/assets/index-d9a84602.css">
   </head>
   <body>
     <header>
@@ -199,13 +199,29 @@
           </p>
         </div>
       </div>
-      <img
-        class="about-img"
-        srcset="/project-03-team/assets/about-us-mob-1x-d1579647.jpg 335w, /project-03-team/assets/about-us-mob-2x-2634fc07.jpg 670w, /project-03-team/assets/about-us-tablet-1x-b56ef6fa.jpg 704w, /project-03-team/assets/about-us-tablet-2x-7b1bd811.jpg 1408w, /project-03-team/assets/about-us-desktop-1x-660fa9f3.jpg 594w, /project-03-team/assets/about-us-desktop-2x-52b999dc.jpg 1188w, /project-03-team/assets/about-us-desktop-xl-1x-1718d2b3.jpg 709w, /project-03-team/assets/about-us-desktop-xl-2x-6c7a0652.jpg 1418w"
-        sizes="(min-width: 1440px) 709px, (min-width: 1280px) 594px, (min-width: 768px) 704px, (min-width: 320px) 335px"
-        src="/project-03-team/assets/about-us-mob-1x-d1579647.jpg"
-        alt="white-vyshyvanka "
-      />
+      <picture class="about-picture">
+        <source
+          srcset="/project-03-team/assets/about-us-desktop-xl-1x-1718d2b3.jpg 2x, /project-03-team/assets/about-us-desktop-xl-2x-6c7a0652.jpg "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/project-03-team/assets/about-us-desktop-2x-52b999dc.jpg 2x, /project-03-team/assets/about-us-desktop-1x-660fa9f3.jpg "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/project-03-team/assets/about-us-tablet-2x-7b1bd811.jpg 2x, /project-03-team/assets/about-us-tablet-1x-b56ef6fa.jpg "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/project-03-team/assets/about-us-mob-2x-2634fc07.jpg 2x, /project-03-team/assets/about-us-mob-1x-d1579647.jpg "
+          media="(min-width: 320px)"
+        />
+        <img
+          class="about-img"
+          src="/project-03-team/assets/about-us-mob-1x-d1579647.jpg"
+          alt="white-vyshyvanka "
+        />
+      </picture>
     </div>
   </div>
 </section>
