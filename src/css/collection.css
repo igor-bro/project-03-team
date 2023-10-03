@@ -43,7 +43,9 @@
   background-position: 0% 10%;
 }
 
-@media screen and (min-resolution: 192dpi) {
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
   .collection-section {
     background-image: url(../img/collection/element-mobile@2x.jpg);
   }
@@ -75,14 +77,15 @@
 
   .collection-section {
     background-image: url(../img/collection/element-tablet.png);
-    background-repeat: no-repeat;
     background-position: 0% 12%;
   }
+}
 
-  @media screen and (min-resolution: 192dpi) {
-    .collection-section {
-      background-image: url(../img/collection/element-tablet@2x.jpg);
-    }
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .collection-section {
+    background-image: url(../img/collection/element-tablet@2x.jpg);
   }
 }
 
@@ -100,27 +103,29 @@
 
   .collection-section {
     background-image: url(../img/collection/element-desktop.png);
-    background-repeat: no-repeat;
     background-position: 0% 21%;
   }
+}
 
-  @media screen and (min-resolution: 192dpi) {
-    .collection-section {
-      background-image: url(../img/collection/element-desktop@2x.jpg);
-    }
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .collection-section {
+    background-image: url(../img/collection/element-desktop@2x.jpg);
   }
 }
 
 @media screen and (min-width: 1440px) {
   .collection-section {
     background-image: url(../img/collection/element-desktop.png);
-    background-repeat: no-repeat;
     background-position: 0% 21%;
   }
+}
 
-  @media screen and (min-resolution: 192dpi) {
-    .collection-section {
-      background-image: url(../img/collection/element-desktop@2x.jpg);
-    }
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+  .collection-section {
+    background-image: url(../img/collection/element-desktop@2x.jpg);
   }
 }
