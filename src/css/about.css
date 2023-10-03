@@ -81,6 +81,7 @@
 }
 .about-img {
   width: 335px;
+  max-width: unset;
 }
 @media screen and (min-width: 768px) {
   .about-section {

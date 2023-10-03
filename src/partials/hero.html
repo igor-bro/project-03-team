@@ -1,31 +1,67 @@
 <!--------- section hero------>
 <section class="hero-section">
-  <div class="container">
-    <h1 class="hero-title">
-      Reviving the traditional
-      <span class="hero-title-part">Ukrainian</span> artistry in every stitch.
-    </h1>
-    <button class="hero-button" type="button">
-      ORDER
-      <svg
-        class="hero-button-svg"
-        width="26"
-        height="10"
-        aria-label="hero-button-icon-arrow"
-      >
-        <use href="../img/sprite.svg#icon-arrow"></use>
-      </svg>
-    </button>
+  <div class="container hero-container">
+    <div class="hero-elements">
+      <div class="hero-sun-text">
+        <svg
+          class="hero-sun-svg"
+          width="52"
+          height="51"
+          aria-label="hero-sun-icon"
+        >
+          <use href="./img/sprite.svg#icon-star"></use>
+        </svg>
+        <p class="hero-text-embroidery">all embroidery is made by hand</p>
+      </div>
+      <img
+        class="hero-vyshyvanka-part"
+        srcset="
+          ./img/hero/desktop1280-vyshyvanka-part.png    139w,
+          ./img/hero/desktop1280-vyshyvanka-part@2x.png 278w,
+          ./img/hero/tabl-vyshyvanka-part.png           139w,
+          ./img/hero/tabl-vyshyvanka-part@2x.png        278w
+        "
+        sizes="(min-width: 1280px) 139px, (min-width: 768px) 139px"
+        src="./img/hero/tabl-vyshyvanka-part.png"
+        alt="girl"
+      />
+    </div>
+    <div class="hero-title-btn-foto">
+      <div class="hero-title-btn">
+        <h1 class="hero-title">
+          Reviving the traditional
+          <span class="hero-title-part">Ukrainian</span> artistry in every
+          stitch.
+        </h1>
+        <button class="hero-button" type="button">
+          ORDER
+          <svg
+            class="hero-button-svg"
+            width="28"
+            height="18"
+            aria-label="hero-button-icon-untitled"
+          >
+            <use href="./img/sprite.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </div>
 
-    <img
-      class="hero-foto-img"
-      srcset="
-        /img/hero/mob-girl-min.jpg    335w,
-        /img/hero/mob-girl@2x-min.jpg 670w
-      "
-      sizes="(min-width: 320px) 335px"
-      src="../img/hero/mob-girl-min.jpg"
-      alt="girl"
-    />
+      <img
+        class="hero-foto-img"
+        srcset="
+          ./img/hero/desktop-girl.jpg     392w,
+          ./img/hero/desktop-girl@2x.jpg  784w,
+          ./img/hero/tabl-girl-min.jpg    413w,
+          ./img/hero/tabl-girl@2x-min.jpg 826w,
+          ./img/hero/mob-girl-min.jpg     335w,
+          ./img/hero/mob-girl@2x-min.jpg  670w
+        "
+        sizes="(min-width: 1280px) 392px,
+          (min-width: 768px) 413px,
+          (min-width: 320px) 335px"
+        src="./img/hero/mob-girl-min.jpg"
+        alt="girl"
+      />
+    </div>
   </div>
 </section>
