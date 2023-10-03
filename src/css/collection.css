@@ -48,3 +48,35 @@
     background-image: url(/images/element-mobile@2x.jpg);
   }
 }
+
+@media screen and (min-width: 768px) {
+  .collection-section-title {
+    font-size: 44px;
+    line-height: 1.46;
+  }
+
+  .collection-section-inner-title {
+    font-size: 18px;
+  }
+
+  .collection-section-text {
+    font-size: 18px;
+  }
+
+  .collection-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .collection-list-item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
