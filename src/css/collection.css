@@ -5,7 +5,7 @@
   line-height: 1.38;
   letter-spacing: -0.03em;
 
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 .collection-section-img {
@@ -17,8 +17,8 @@
   transform: translateY(0%);
 }
 .collection-list-item-container {
-  padding-top: 18px;
-  padding-bottom: 20px;
+  margin-top: 18px;
+  margin-bottom: 20px;
 }
 .collection-section-inner-title {
   color: #fcf9f9;
@@ -28,7 +28,7 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .collection-section-text {
   color: rgba(252, 249, 249, 0.4);
