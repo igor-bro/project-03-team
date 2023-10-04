@@ -3,8 +3,8 @@
 }
 
 .order-bcgr-img {
-  width: 425px;
-  max-width: 100%px;
+  width: 100%;
+  max-width: 375px;
   height: 550px;
   margin-left: auto;
   margin-right: auto;
@@ -24,7 +24,6 @@
 }
 
 .order-container {
-  width: 375px;
   min-height: 636px;
 }
 
@@ -304,6 +303,20 @@
     screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .order-section {
       background-image: url(.././img/order/bcgr/order-desktop1440-ornament@2x-min.png);
+    }
+  }
+
+  .order-bcgr-img {
+    width: 1440px;
+    margin: 0 auto 150px auto;
+    background-image: url(.././img/order/bcgr/oreder-bcgr-desktop-1440-min.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .order-bcgr-img {
+      background-image: url(.././img/order/bcgr/oreder-bcgr-desktop-1440@2x-min.jpg);
     }
   }
 
