@@ -4,7 +4,6 @@
   align-items: center;
   padding-top: 24.5px;
   padding-bottom: 6.5px;
-  margin-bottom: 60px;
 }
 
 .header-menu {
@@ -68,17 +67,9 @@
     border: 1px solid var(--yellow);
     background: transparent;
   }
-
-  .header-wrapper {
-    margin-bottom: 80px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
-  .header-wrapper {
-    margin-bottom: 100px;
-  }
-
   .header-btn-menu {
     display: none;
   }
