@@ -24,19 +24,25 @@
     openMenuBtn.setAttribute('aria-expanded', false);
     bodyScrollLock.enableBodyScroll(document.body);
   });
-})();
 
-// Кнопка скролу догори
-$('.back-to-top').click(function () {
-    $('body,html').animate({ scrollTop: 0}, 800); 
-});
-
-$(window).scroll(function() { 
-    let scrolled = $(window).scrollTop(); 
-
-    if(scrolled > 350) { 
-        $('.back-to-top').addClass('active');
-    } else {
-        $('.back-to-top').removeClass('active');
+  // Кнопка скролу догори
+  const animateScrollTop = () => {
+    const distance = document.documentElement.scrollTop || document.body.scrollTop;
+    if (distance > 0) {
+      window.requestAnimationFrame(animateScrollTop);
+      window.scrollTo(0, distance - distance / 8);
     }
-});
+  };
+
+  const backToTopBtn = document.querySelector('.back-to-top');
+  backToTopBtn.addEventListener('click', animateScrollTop);
+
+  window.addEventListener('scroll', () => {
+    const scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrolled > 350) {
+      backToTopBtn.classList.add('active');
+    } else {
+      backToTopBtn.classList.remove('active');
+    }
+  });
+})();

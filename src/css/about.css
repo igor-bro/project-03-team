@@ -12,7 +12,6 @@
     background-image: url(../img/about/background/ornament-mob-2x.png);
   }
 }
-
 @media screen and (min-width: 768px) {
   .about-section {
     background-image: url(../img/about/background/ornament-tablet-1x.png);
@@ -26,7 +25,6 @@
     background-image: url(../img/about/background/ornament-tablet-2x.png);
   }
 }
-
 @media screen and (min-width: 1280px) {
   .about-section {
     background-image: url(../img/about/background/ornament-desktop-1x.png);

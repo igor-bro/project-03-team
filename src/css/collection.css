@@ -8,22 +8,18 @@
   padding-bottom: 40px;
   text-align: center;
 }
-
 .collection-section-img {
   border-radius: 4px;
 }
-
 .collection-section-img:hover,
 .collection-section-img:focus {
   box-shadow: 0px 1px 6px #ecd979, 0px 1px 1px #ecd979, 0px 2px 1px #ecd979;
   transform: translateY(0%);
 }
-
 .collection-list-item-container {
   padding-top: 18px;
   padding-bottom: 20px;
 }
-
 .collection-section-inner-title {
   color: #fcf9f9;
   font-size: 14px;
@@ -34,7 +30,6 @@
 
   padding-bottom: 8px;
 }
-
 .collection-section-text {
   color: rgba(252, 249, 249, 0.4);
   font-size: 14px;
@@ -42,7 +37,6 @@
   line-height: 1;
   letter-spacing: 0.05em;
 }
-
 .collection-section {
   background-image: url(../img/collection/element-mobile.png);
   background-repeat: no-repeat;
@@ -57,7 +51,6 @@
     background-image: url(../img/collection/element-mobile@2x.png);
   }
 }
-
 @media screen and (min-width: 768px) {
   .collection-section-title {
     font-size: 44px;
@@ -96,7 +89,6 @@
     }
   }
 }
-
 @media screen and (min-width: 1280px) {
   .collection-list {
     display: flex;
@@ -122,7 +114,6 @@
     }
   }
 }
-
 @media screen and (min-width: 1440px) {
   .collection-section {
     background-image: url(../img/collection/element-desktop.png);

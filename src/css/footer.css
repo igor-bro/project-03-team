@@ -5,48 +5,40 @@
   background-position: bottom;
   background-size: 375px 212px;
 }
-
 .footer-wrapper {
   padding-top: 40px;
   padding-bottom: 292px;
 }
-
 /* ===== nav-menu ===== */
 .footer-nav-menu {
   display: flex;
   gap: 40px;
   padding-bottom: 40px;
 }
-
 .footer-nav-col {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-
 .footer-nav-item {
   letter-spacing: normal;
   line-height: 1.29;
   text-transform: uppercase;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-nav-item:hover,
 .footer-nav-item:focus {
   color: var(--yellow);
 }
-
 /* ===== slogan ===== */
 .footer-slogan {
   font-size: 44px;
   line-height: 1.23;
   letter-spacing: -0.03em;
 }
-
 .footer-slogan-highlight {
   color: var(--yellow);
 }
-
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
@@ -54,7 +46,6 @@
     background-image: url(../img/footer/bg-ornament-mob@2x.png);
   }
 }
-
 @media screen and (min-width: 768px) {
   .footer {
     background-image: url(../img/footer/bg-ornament-tablet.png);
@@ -82,7 +73,6 @@
     max-width: 521px;
   }
 }
-
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
@@ -90,7 +80,6 @@
     background-image: url(../img/footer/bg-ornament-tablet@2x.png);
   }
 }
-
 @media screen and (min-width: 1280px) {
   .footer {
     background-image: url(../img/footer/bg-ornament-desktop.png);
@@ -109,7 +98,6 @@
     max-width: 754px;
   }
 }
-
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
@@ -117,14 +105,12 @@
     background-image: url(../img/footer/bg-ornament-desktop@2x.png);
   }
 }
-
 @media screen and (min-width: 1440px) {
   .footer {
     background-image: url(../img/footer/bg-ornament-desktop-big.png);
     background-size: 496px 363px;
   }
 }
-
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
   screen and (min-resolution: 2dppx) and (min-width: 1440px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
